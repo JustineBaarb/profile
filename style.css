@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900&display=swap');
+
+body {
+  background-color: #F6E27F;
+}
+
+
+h1 {
+  color: #721817;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #E2C391;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+h1, h2, a {
+  font-family: 'Raleway', sans-serif;
+  line-height : 1,6;
+}
+
+img {
+  width: 100px;
+  border-radius: 50px;
+  margin: 20px, auto;
+  object-fit: cover;
+  border : solid 2px #E6EBE0;
+}
+
+p {
+  color : #FA9F42;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+}
+
+i {
+  color : #222E50;
+  background-color: #9BBEC7;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+a {
+  color : #222E50;
+  text-decoration: none;
+}
+
+/* Cible n'importe quel élément <a> lorsque  */
+/* celui-ci est survolé */
+
+i:hover {
+  color: gold;
+}
+
+a:hover {
+  color: #FA9F42;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: #FBF9FF;
+    padding: 40px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+  /* Permet de supprimer les points de la liste */
+  list-style: none;
+  font-size: 30px;
+  display: inline-block;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
